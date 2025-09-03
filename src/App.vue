@@ -1,14 +1,13 @@
 <script setup lang="ts">
+import NavBar from './components/NavBar.vue';
+
 
 </script>
 
 <template>
 
 <div class="space-y-5 ">
-    <div class="space-x-2 p-10 border-b bg-blue-400">
-        <RouterLink  class="bg-black text-white rounded-full p-5 text-2xl ml-180" to="/" >Home Page </RouterLink>
-        <RouterLink  class=" text-white rounded-full p-5 text-2xl bg-red-400" to="/about">About Page </RouterLink>
-    </div>
+    <NavBar/>
     <router-view></router-view>
 
 
