@@ -6,7 +6,7 @@
 
     <h1>Home Page</h1>
     <div class="flex space-x-5 ml-4 border h-150 w-300 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <img class="h-100 w-100 rounded-lg ml-20 mt-22" src="/public/images/images.jpg"></img>
+        <img class="h-100 w-100 rounded-lg ml-20 mt-22" src="/images/images.jpg"></img>
         <div class="flex flex-col space-y-5 ml-13 mt-22">
             <h1 class="text-6xl font-bold">Niño Raleigh Paragas</h1>
             <h1 class="text-4xl text-gray-600">sample@gmail.com</h1>
