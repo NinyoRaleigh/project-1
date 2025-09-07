@@ -35,7 +35,7 @@ import SocialsCard from '../components/SocialsCard.vue';
 
 
 
-    <Marquee />
+    <!-- <Marquee /> -->
 
 
 
