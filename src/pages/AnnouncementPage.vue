@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HomeButton from '../components/HomeButton.vue';
 import MyCard from '../components/MyCard.vue';
+import NewsSlotComp from '../components/NewsSlotComp.vue';
 
 
 </script>
@@ -11,12 +12,14 @@ import MyCard from '../components/MyCard.vue';
         class="flex flex-wrap space-x-5 ml-4 border h-2/3 w-250 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-200 rounded-2xl">
     
         <div class="flex flex-col absolute left-1/2 transform -translate-x-1/2 text-4xl font-extrabold text-center p-20">
-            <h1>Contact</h1>
+            <h1>News</h1>
 
 
         </div>
          <div class="text-lg absolute bottom-1/4 text-justify p-10"> 
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias temporibus eligendi quibusdam aliquam, labore consequuntur sunt voluptates impedit voluptatum nostrum culpa id iste nihil odit adipisci doloribus eius dignissimos. Aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde facilis culpa recusandae quisquam incidunt similique laudantium ipsa, ad quasi, sunt animi, fugit commodi? Nobis ullam quam magnam assumenda odio.</h4>
+
+                <NewsSlotComp></NewsSlotComp>
             </div>
 
 
@@ -28,9 +31,8 @@ import MyCard from '../components/MyCard.vue';
         <HomeButton>
             <RouterLink to="/about">Prev</RouterLink>
         </HomeButton>
-        <HomeButton>
-            <RouterLink to="/announcement">Next</RouterLink>
-        </HomeButton>
+        <button  class="bg-gray-300 text-black text-lg rounded-4xl w-20 h-auto text-center transform -translate-y-1/2 -translate-x-1/2">Next</button>
+
     </div>
 
 
