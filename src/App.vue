@@ -8,6 +8,8 @@ import NavBar from './components/NavBar.vue';
 
 <div class="space-y-5">
     <NavBar/>
+
+     
     <router-view></router-view>
 
 

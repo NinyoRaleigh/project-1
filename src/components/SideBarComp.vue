@@ -4,7 +4,7 @@
     <aside class="border rounded-lg bg-green-200 border-black w-9/10 h-1/16">
         <div>
             <div>
-                <slot name="sidebar1"></slot>
+                <slot name="header"></slot>
             </div>
 
             <div>
@@ -12,7 +12,7 @@
             </div>
 
             <div>
-                <slot name="sidebar2"></slot>
+                <slot name="footer"></slot>
             </div>
         </div>
 
